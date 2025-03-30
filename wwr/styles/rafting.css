@@ -12,7 +12,11 @@ body {
 
 h1 {
     position: absolute;
-
+    top: 100px;
+    right: 0;
+    left: 0;
+    width: 80%;
+    margin: 0 auto;
     color: var(--orangecolor);
 }
 
@@ -30,6 +34,7 @@ nav {
 
 .hero {
     position: relative;
+    margin: 0 auto;
 }
 
 .hero img {
@@ -48,6 +53,8 @@ article {
 }
 
 .hero article img {
+    position: relative;
+    top: 200px;
     right: 0;
     width: 200px;
 }
