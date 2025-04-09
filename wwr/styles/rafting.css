@@ -21,8 +21,6 @@ h1 {
 }
 
 .flex-container {
-    flex-direction: column;
-    justify-content: space-around;
     border: 3px black;
     background-color: lightsalmon;
     opacity: 50%;
