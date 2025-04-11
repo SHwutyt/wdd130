@@ -20,30 +20,19 @@ h1 {
     color: var(--orangecolor);
 }
 
-.flex-container {
+div {
     border: 3px black;
     background-color: lightsalmon;
     display: flex;
     flex-direction: column-reverse;
 }
-
-.flex-item {
+section {
     max-width: 450px;
     margin: 1rem;
     border: 1px solid black;
     padding: 0.5rem;
     background-color: #bbb;
     color: #333;
-}
-
-.item1 {
-    min-height: 100px;
-}
-.item2 {
-    min-height: 100px;
-}
-.item3 {
-    min-height: 100px;
 }
 
 h2 {
