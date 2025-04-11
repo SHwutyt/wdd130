@@ -22,17 +22,27 @@ h1 {
 
 div {
     border: 3px black;
-    background-color: lightsalmon;
+    background-color: grey;
     display: flex;
     flex-direction: column-reverse;
 }
 section {
-    max-width: 450px;
+    max-width: auto;
     margin: 1rem;
     border: 1px solid black;
     padding: 0.5rem;
     background-color: #bbb;
     color: #333;
+}
+
+.sociallinks{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.resize{
+    width: 57px;
+    height: auto;
 }
 
 h2 {
