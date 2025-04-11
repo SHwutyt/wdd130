@@ -10,6 +10,12 @@ body {
     margin: 0 auto;
 }
 
+.links{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
 h1 {
     position: absolute;
     top: 100px;
@@ -60,12 +66,17 @@ nav {
 .hero {
     position: relative;
     margin: 0 auto;
+    border: 4px #bbb;
+    background-color: aliceblue;
 }
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
+}
+.oar{
+    opacity: 50%;
 }
 
 article {
